@@ -11,6 +11,7 @@ Diseño simple de web html5 y css responsive
   * - El tipo de documento será HTML5.
   * - Las páginas serán completas (válidas), estructuralmnete hablando.
   * - Elementos de uso obligatorio:
+  ```
     · Enlaces, dentro y fuera de la página
     · Tablas
     · Listas
@@ -18,7 +19,7 @@ Diseño simple de web html5 y css responsive
     · Vídeo
     · Elementos de formulario variados
     · Elementos de agrupación: <div> y <spam>
-
+```
 
  ## CSS
  * - Usar una hoja de estilos de normalización.
