@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+  	<meta charset="utf-8"/>
+	<title>Pokemon</title>
+	<link id="linkEstilo" rel="stylesheet" href="css/design.css" />
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<script src="javascript/scripts.js"></script>
+
+
+</head>
+
+<body>
+		<img src="img/header.png" class="responsive_header center" alt="" /> 
+
+  <ul class = "nav">
+    <li><a href="index.html">•Home</a></li>
+    <li><a href="tipos.html">•Tipos de pokemon</a></li>
+    <li><a href="sobre.html">•Como Jugar </a></li>
+    <li><a href="contacto.html">•Contacto</a></li>
+  </ul>
+
+<div id="contenido">
+
+<label>Normal</label>
+		<input type="radio" name="estilo" value="design.css" onclick="cambiaEstilo(this.value);" checked="checked" />	
+<label>Oscuro</label>
+		<input type="radio" name="estilo" value="oscuro.css" onclick="cambiaEstilo(this.value);" />	
+
+	<h1 class="center">Algúnos tipos de Pokemons:</h1>
+<div style="overflow-x:auto;">
+  <table class="responsive">
+    <tbody>
+      <tr>
+        <th scope="col">Poedex #</th>
+        <th colspan="2" scope="col">Poemon</th>
+        <th colspan="2" scope="col">Tipo</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td><img src="img/Bulbasaur_icon.png" alt=""/></td>
+        <td><a href="http://es.pokemon.wikia.com/wiki/Bulbasaur" title="Bulbasaur">Bulbasaur</a></td>
+        <td class="planta">Planta</td>
+        <td class="viento">Veneno</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td><img src="img/Ivysaur_icon.png" width="32" height="32" alt=""/></td>
+        <td><a href="http://es.pokemon.wikia.com/wiki/Ivysaur" title="Ivysaur">Ivysaur</a></td>
+        <td class="planta">Planta</td>
+        <td class="viento">Veneno</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td><img src="img/Venusaur_icon.png" width="32" height="32" alt=""/></td>
+        <td><a href="http://es.pokemon.wikia.com/wiki/Venusaur" title="Venusaur">Venusaur</a></td>
+        <td class="planta">Planta</td>
+        <td class="viento">Veneno</td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td><img src="img/Charmander_icon.png" alt=""/></td>
+         <td><a href="http://es.pokemon.wikia.com/wiki/Charmander" title="Charmander">Charmander</a></td>
+        <td colspan="2" class="fuego">Fuego</td>
+      </tr>
+      <tr>
+        <td>005</td>
+        <td><img src="img/Charmeleon_icon.png" width="32" height="32" alt=""/></td>
+        <td><a href="http://es.pokemon.wikia.com/wiki/Charmeleon" title="Charmeleon">Charmeleon</a></td>
+        <td colspan="2" class="fuego">Fuego</td>
+      </tr>
+      <tr>
+        <td>006</td>
+        <td><img src="img/Charizard_icon.png" width="32" height="32" alt=""/></td>
+        <td><a href="http://es.pokemon.wikia.com/wiki/Charizard" title="Charizard">Charizard</a></td>
+        <td class="fuego">Fuego</td>
+        <td class="volador">Volador</td>
+      </tr>
+      <tr>
+        <td>007</td>
+        <td><img src="img/Squirtle_icon.png" width="32" height="32" alt=""/></td>
+        <td><a href="http://es.pokemon.wikia.com/wiki/Squirtle" title="Squirtle">Squirtle</a></td>
+        <td colspan="2" class="agua">Agua</td>
+      </tr>
+      <tr>
+        <td>008</td>
+        <td><img src="img/Wartortle_icon.png" width="32" height="32" alt=""/></td>
+        <td><a href="http://es.pokemon.wikia.com/wiki/Wartortle" title="Wartortle">Wartortle</a></td>
+        <td colspan="2" class="agua">Agua</td>
+      </tr>
+      <tr>
+        <td>009</td>
+        <td><img src="img/Blastoise_icon.png" width="32" height="32" alt=""/></td>
+        <td><a href="http://es.pokemon.wikia.com/wiki/Blastoise" title="Blastoise">Blastoise</a></td>
+        <td colspan="2" class="agua">Agua</td>
+      </tr>
+    </tbody>
+  </table>
+	</div>
+</div><br><br><br><br>
+<div class="footer">
+  <h1>Todos los derechos reservados © Niantic</h1>
+</div>
+</body>
+</html>
