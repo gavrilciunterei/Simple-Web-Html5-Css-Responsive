@@ -18,7 +18,7 @@ Diseño simple de web html5 y css responsive
     · Imágenes
     · Vídeo
     · Elementos de formulario variados
-    · Elementos de agrupación: <div> y <spam>
+    · Elementos de agrupación: <div> y <span>
 ```
 
  ## CSS
