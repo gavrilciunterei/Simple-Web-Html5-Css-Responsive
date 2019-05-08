@@ -27,10 +27,11 @@ Diseño simple de web html5 y css responsive
   * - Se usará en alguna página la técnica de diseño de caja flexible (flexbox).
   * - Se usará en alguna página la técnica de diseño de vista en cuadrícula (grid view).
   * - Se aplicarán estilos a:
+  ```
     · Enlaces
     · Tablas
     · Listas
     · Imágenes
-
+  ```
 
   
