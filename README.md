@@ -35,4 +35,9 @@ Diseño simple de web html5 y css responsive
     · Imágenes
   ```
 
-  
+## Diseño inicio normal
+![Screenshot](https://i.imgur.com/dfOmvLk.png)
+## Javascrit Cambiador de estilo && Tabla con diseño 
+![Screenshot](https://i.imgur.com/QueiqqQ.png)
+## Flex Box
+![Screenshot](https://i.imgur.com/zEazJs1.jpg)
